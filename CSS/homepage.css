@@ -39,14 +39,8 @@ section {
  .banner {
       position: relative;
       width: 100%;
-      height: 300px; /* Adjust the height as needed */
+      height: 300px; 
       overflow: hidden;
-    }
-
-    .banner img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
     }
 
     .banner .banner-content {
@@ -56,3 +50,4 @@ section {
       transform: translate(-50%, -50%);
       text-align: center;
       color: #fff;
+   }    
