@@ -32,6 +32,12 @@ section {
       overflow: hidden;
     }
 
+ .banner img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
     .banner .banner-content {
       position: absolute;
       top: 50%;
