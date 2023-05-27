@@ -12,17 +12,18 @@ header {
 }
 
 nav ul {
-  list-style-type: square;
+  list-style-type: none;
   margin: 10px;
   padding: 0;
   background-color: #f2f2f2;
 }
 
 
-}
-
 section {
   padding: 20px;
+  
+square-list {
+  list-style-type: square;
 }
 
  .banner {
@@ -32,12 +33,6 @@ section {
       overflow: hidden;
     }
 
- .banner img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-
     .banner .banner-content {
       position: absolute;
       top: 50%;
@@ -45,4 +40,4 @@ section {
       transform: translate(-50%, -50%);
       text-align: center;
       color: #fff;
-   }    
+   }     
