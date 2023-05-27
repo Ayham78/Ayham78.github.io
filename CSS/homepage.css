@@ -28,6 +28,10 @@ nav ul li a {
   color: #333;
 }
 
+square-list {
+  list-style-type: square;
+}
+
 section {
   padding: 20px;
 }
