@@ -25,12 +25,12 @@ nav ul li {
 }
 
 nav ul li a {
-  text-decoration: overline;
+  text-decoration: underline;
   color: #D2B4DE;
 }
 
 .banner img {
-  width: 100%;
+  width: 70%;
   height: auto;
 }
 
