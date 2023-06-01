@@ -41,8 +41,16 @@ nav ul li a {
 }
 
 
-.square-list {
-  list-style-type: square;
+ul {
+  list-style-type: none;
+}
+
+li::before {
+  content: "\25A0"; 
+  color: black ; 
+  display: inline-block;
+  width: 1em; 
+  margin-right: 0.5em; 
 }
 
 footer {
